@@ -153,7 +153,7 @@ image_gallery_project/
 │   ├── services.py        # Функция upload_to_cloudinary()
 │   ├── urls.py            # Маршрутизация API
 │
-├── image_gallery_project/
+├── core/
 │   ├── settings.py        # Настройки проекта и Cloudinary
 │   ├── urls.py            # Главная маршрутизация API
 │
