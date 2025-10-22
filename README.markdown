@@ -55,7 +55,7 @@ pip install djangorestframework cloudinary pillow psycopg2-binary python-decoupl
 ```
 
 
-## Настройка Cloudinary
+### 4 Настройка Cloudinary
 
 Создайте аккаунт на [https://cloudinary.com](https://cloudinary.com)
 и получите данные для подключения:
@@ -75,7 +75,7 @@ cloudinary.config(
 )
 ```
 
-### 4 Создайте файл .env в корне вашего проекта (рядом с manage.py) и добавьте в него следующие строки с указанными значениями
+### 5 Создайте файл .env в корне вашего проекта (рядом с manage.py) и добавьте в него следующие строки с указанными значениями
 
 ```bash
 SECRET_KEY=ваш-секретный-ключ
@@ -89,7 +89,7 @@ DB_PORT=5432
 API_SECRET=ваш-api-секрет от Cloudinary
 ```
 
-## Миграции и запуск проекта
+### 6 Миграции и запуск проекта
 
 ```bash
 python manage.py makemigrations
