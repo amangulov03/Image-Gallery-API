@@ -11,8 +11,8 @@ API позволяет:
 
 
 ## Используемые технологии
-- **Python 3.10+**
-- **Django 5.x**
+- **Python**
+- **Django**
 - **Django REST Framework**
 - **Cloudinary**
 
@@ -165,5 +165,4 @@ image_gallery_project/
 
 **Эмир Амангулов**
 Python/Django Developer — стажёр
-Срок сдачи: 23.10
 
