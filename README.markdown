@@ -21,7 +21,7 @@ API позволяет:
 
 ### 1 Клонируйте репозиторий
 ```bash
-git clone https://github.com/your-username/image_gallery_project.git
+git clone https://github.com/amangulov03/Image-Gallery-API.git
 cd image_gallery_project
 ```
 
