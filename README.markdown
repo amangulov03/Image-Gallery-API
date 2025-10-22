@@ -22,7 +22,7 @@ API позволяет:
 ### 1 Клонируйте репозиторий
 ```bash
 git clone https://github.com/amangulov03/Image-Gallery-API.git
-cd image_gallery_project
+cd Image-Gallery-API
 ```
 
 ### 2 Создайте и активируйте виртуальное окружение
