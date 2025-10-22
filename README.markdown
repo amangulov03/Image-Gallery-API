@@ -33,7 +33,7 @@ python -m venv venv
 venv\Scripts\activate          # Windows
 ```
 
-### 3 Создайте файл `requirements.txt` в корне вашего проекта (рядом с `manage.py`) и добавьте в него следующие зависимости на основе вашего кода:
+### 3 Создайте файл `requirements.txt` в корне вашего проекта (рядом с `manage.py`) и добавьте в него следующие зависимости на основе вашего кода
 
 ```bash
 djangorestframework
@@ -68,11 +68,25 @@ pip install djangorestframework cloudinary pillow psycopg2-binary python-decoupl
 
 ```bash
 cloudinary.config(
-    cloud_name = 'your_cloud_name',
-    api_key = 'your_api_key',
-    api_secret = 'your_api_secret',
+    cloud_name = 'ваше имя в облаке',
+    api_key = 'ваш api key',
+    api_secret = config('API_SECRET')
     secure=True
 )
+```
+
+### 4 Создайте файл .env в корне вашего проекта (рядом с manage.py) и добавьте в него следующие строки с указанными значениями
+
+```bash
+SECRET_KEY=ваш-секретный-ключ
+
+DB_NAME=ваше имя в базе данных
+DB_USER=ваш-пользователь-базы данных
+DB_PASSWORD=ваш пароль к базе данных
+DB_HOST=localhost
+DB_PORT=5432
+
+API_SECRET=ваш-api-секрет от Cloudinary
 ```
 
 ## Миграции и запуск проекта
