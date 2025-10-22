@@ -48,13 +48,6 @@ psycopg2-binary
 pip install -r requirements.txt
 ```
 
-*Если файла `requirements.txt` нет — установите пакеты вручную:*
-
-```bash
-pip install djangorestframework cloudinary pillow psycopg2-binary python-decouple
-```
-
-
 ### 4 Настройка Cloudinary
 
 Создайте аккаунт на [https://cloudinary.com](https://cloudinary.com)
